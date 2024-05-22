@@ -22,7 +22,7 @@ function Home() {
         <View addBookResponse={addBookResponse} setSelectedBook={setSelectedBook} onDeleteBook={handleDeleteBook} />
         </div>
         <div className="col-lg-0"></div>
-        <div className='col-lg-5'>
+        <div className='about-section col-lg-5'>
           <About book={selectedBook} />
         </div>
       </div>

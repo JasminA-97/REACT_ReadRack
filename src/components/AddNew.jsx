@@ -32,7 +32,7 @@ function AddNew({setAddBookResponse}) {
 
   return (
   <>
-      <div className='d-flex justify-content-between align-items-center m-5 w-100'>
+      <div className='d-flex justify-content-between align-items-center m-5 p-5'>
         <h4></h4>
         <Button onClick={() => setShow(true)} className='btn btn-primary'>New Book&nbsp;&nbsp;<span className='fw-bolder'>+</span></Button>
       </div>
