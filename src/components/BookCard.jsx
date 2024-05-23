@@ -57,13 +57,13 @@ function BookCard({ showBook, setDeleteResponse, setSelectedBook, setUpdateRespo
             <img onClick={handleAboutBook} style={{ height: '125px', width: '130px' }} src={showBook.coverImage} className="img-fluid rounded-start ps-5 pe-0 pt-3 pb-0" alt="..." />
           </div>
           <div className="col-md-8">
-            <div className="card-body ps-0">
-              <div className='d-flex justify-content-between align-items-center'>
+            <div className="bookcardbody card-body ps-0">
+              <div className='d-flex justify-content-between align-items-center flex-wrap'>
                 <div onClick={handleAboutBook} className="card-title fw-bolder fs-5 text-primary">{showBook.title}</div>
                 <div className="card-text text-body-secondary">{showBook.completedDate}</div>
               </div>
               <div style={{ fontSize: '14px' }} className="card-text text-primary">"{showBook.quote.slice(0, 90)}"</div>
-              <div className="d-flex justify-content-between align-items-center">
+              <div className="d-flex justify-content-between align-items-center flex-wrap">
                 <div className="card-text text-secondary fs-6 fw-bolder"> - {showBook.author}</div>
                 <div>
                   <button onClick={() => handleEditBook(showBook)} className='btn'><i className="fa-solid fa-pen-to-square text-success"></i></button>

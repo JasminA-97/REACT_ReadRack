@@ -3,7 +3,7 @@ import { Card, ListGroup, ListGroupItem } from 'react-bootstrap'
 
 function About({ book }) {
   if (!book) {
-    return <div style={{height:'100vh'}} className="d-flex justify-content-center align-items-center flex-column"><i style={{fontSize:'100px'}} className="fa-solid fa-book text-light"></i><p className="text-light fw-bolder p-5 ">Select a book to see its details.</p></div>
+    return <div style={{height:'100vh'}} className="d-flex justify-content-center align-items-center flex-column flex-wrap"><i style={{fontSize:'100px'}} className="fa-solid fa-book text-light"></i><p className="text-light fw-bolder p-5 ">Select a book to see its details.</p></div>
   }
 
   return (
@@ -11,7 +11,7 @@ function About({ book }) {
    <div>
         <Card style={{paddingBottom:'50px',paddingTop:'10px'}} className=' bg-light'>
        
-          <div className="d-flex justify-content-around align-items-center ">
+          <div className="imgquote d-flex justify-content-around align-items-center">
            <div className='w-100'> <Card.Img  height={'400px'} className='m-auto p-4 ' variant="top" src={book.coverImage} alt={`${book.title} cover`} /></div>
             <div className='w-100'>
               <Card.Body className=''>

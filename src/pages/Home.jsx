@@ -20,7 +20,7 @@ function Home({insideHome}) {
       <Header insideHome={true}/>
       <Container>
         <AddNew setAddBookResponse={setAddBookResponse} />
-        <div className='d-flex justify-content-between align-items-center w-100'>
+        <div className='d-flex justify-content-between align-items-center w-100 flex-wrap'>
           <div className='col-lg-7'>
           <View addBookResponse={addBookResponse} setSelectedBook={setSelectedBook} onDeleteBook={handleDeleteBook} />
           </div>

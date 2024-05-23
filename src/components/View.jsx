@@ -36,7 +36,7 @@ function View({ addBookResponse, setSelectedBook, onDeleteBook}) {
         />
         </Col>
       )) : (
-        <div style={{height:'100vh'}} className="fw-bolder text-danger d-flex justify-content-center mt-5 ">Nothing to display</div>
+        <div style={{height:'100vh'}} className="fw-bolder text-danger d-flex justify-content-center mt-5 flex-wrap">Nothing to display</div>
       )}
     </Row>
   )

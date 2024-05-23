@@ -33,11 +33,11 @@ function AddNew({setAddBookResponse}) {
 
   return (
   <>
-      <div style={{paddingTop:'75px'}} className='d-flex justify-content-between align-items-center my-5 w-50'>
+      <div style={{paddingTop:'75px'}} className='d-flex justify-content-between align-items-center my-5 w-50 flex-wrap'>
         <h4 className='fw-bolder text-primary'>Your Read List</h4>
         <Button onClick={() => setShow(true)} className='btn btn-primary'>New Book&nbsp;&nbsp;<span className='fw-bolder'>+</span></Button>
       </div>
-      <div className='d-flex w-100 align-items-center justify-content-center'>
+      <div className='d-flex w-100 align-items-center justify-content-center flex-wrap'>
           <Modal size='lg' show={show} onHide={() => setShow(false)}  backdrop="static" keyboard={false} >
             <Modal.Header closeButton>
               <Modal.Title className='text-primary fw-bolder'>Add New Book</Modal.Title>

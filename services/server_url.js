@@ -1,2 +1,2 @@
-const SERVER_URL="http://localhost:3000"
+const SERVER_URL="https://read-rack-server.vercel.app"
 export default SERVER_URL
