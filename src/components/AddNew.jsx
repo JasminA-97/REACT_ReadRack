@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Button, Dropdown, FloatingLabel, Form, Modal } from 'react-bootstrap'
 import { addNewBookAPI } from '../../services/allAPI';
+import { toast } from 'react-toastify';
 
 
 
@@ -32,8 +33,8 @@ function AddNew({setAddBookResponse}) {
 
   return (
   <>
-      <div className='d-flex justify-content-between align-items-center m-5 p-5'>
-        <h4></h4>
+      <div style={{paddingTop:'75px'}} className='d-flex justify-content-between align-items-center my-5 w-50'>
+        <h4 className='fw-bolder text-primary'>Your Read List</h4>
         <Button onClick={() => setShow(true)} className='btn btn-primary'>New Book&nbsp;&nbsp;<span className='fw-bolder'>+</span></Button>
       </div>
       <div className='d-flex w-100 align-items-center justify-content-center'>

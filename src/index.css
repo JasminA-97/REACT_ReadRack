@@ -5,7 +5,7 @@
 }
 .about-section {
   position: fixed;
-  top: 11rem;
+  top:6rem;
   right: 0;
   width: 30%; /* Adjust as needed */
   height: 100vh;
@@ -20,4 +20,35 @@
   overflow-y: auto;
   height: 100vh;
 }
+
+/* LandingPage.css */
+.landing-page {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  background-image: url('https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  position: absolute;
+
+  text-align: center;
+  color: white; /* Change this if your image has light background */
+  background: rgba(0, 0, 0, 0.4); /* Slightly dark background for better readability */
+  padding: 20%; 
+  width: 100%;
+  border-radius: 10px;
+}
+
+.quote {
+  font-size: 2.5rem; /* Adjust size as needed */
+  font-weight: bold;
+  margin: 0;
+}
+
 

@@ -24,7 +24,7 @@ function View({ addBookResponse, setSelectedBook, onDeleteBook}) {
   }
 
   return (
-    <Row className='w-100'>
+    <Row className='w-100 pb-5 mb-5'>
       {showAllBooks.length > 0 ? showAllBooks.map(book => (
         <Col key={book.id} lg={12} className='w-100'>
          <BookCard 
@@ -36,7 +36,7 @@ function View({ addBookResponse, setSelectedBook, onDeleteBook}) {
         />
         </Col>
       )) : (
-        <div className="fw-bolder text-danger">Nothing to display</div>
+        <div style={{height:'100vh'}} className="fw-bolder text-danger d-flex justify-content-center mt-5 ">Nothing to display</div>
       )}
     </Row>
   )
