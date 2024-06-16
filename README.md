@@ -1,3 +1,4 @@
 # React + Vite
 
-<video controls src="ReadRack screen rec.mp4" title="Title"></video>
+![alt text](<Read Rack.png>)
+![alt text](Read-Rack.png)
