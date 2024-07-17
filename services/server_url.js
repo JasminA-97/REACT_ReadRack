@@ -1,2 +1,2 @@
-const SERVER_URL="https://read-rack-server.vercel.app"
+const SERVER_URL="https://react-readrack-server.onrender.com"
 export default SERVER_URL
